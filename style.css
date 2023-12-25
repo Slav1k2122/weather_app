@@ -1,0 +1,194 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+}
+
+body{
+    background-color: #6FBEEE;
+}
+
+.headNav{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.headNav a{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3C8FDD;
+}
+
+header .hr{
+    background-color: #3C8FDD;
+    width: 95vw;
+    height: 3px;
+    margin: 10px 0 0 0;
+}
+
+header img{
+    width: 30px;
+    position: absolute;
+    left: 35px;
+    top: 5px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.sec{
+    margin-top: 30px;
+    width: 200px;
+    height: 470px;
+    background-color: #DDEAF3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.main_city{
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.im{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.H{
+    font-size: 30px;
+    font-family: monospace;
+    color: #3C8FDD;
+    margin: 20px 0;
+}
+
+.hr{
+    background-color: #6FBEEE;
+    width: 190px;
+    height: 1.5px;
+    margin: 20px 0;
+}
+
+
+
+.w{
+    color: #3C8FDD;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+.C{
+    color: #3C8FDD;
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+@media (max-width: 850px) {
+    section{
+        flex-direction: column;
+    }
+
+    .sec{
+        width: 500px;
+        height: 200px;
+    }
+
+    .main{
+        flex-direction: row;
+    }
+
+    .H{
+        margin: 10px 0;
+    }
+
+    .hr{
+        width: 450px;
+        margin: 10px 0;
+    }
+
+    .C{
+        margin-left: 40px;
+    }
+
+    .im{
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sec{
+        width: 400px;
+        height: 200px;
+    }
+
+    .hr{
+        width: 350px;
+    }
+}
+
+@media (max-width: 470px) {
+    .sec{
+        width: 270px;
+        height: 200px;
+    }
+
+    .hr{
+        width: 250px;
+    }
+
+    .C{
+        margin-left: 20px;
+    }
+
+    .im{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 330px) {
+    .sec{
+        width: 230px;
+        height: 200px;
+    }
+
+    .hr{
+        width: 220px;
+    }
+
+    .C{
+        margin-left: 10px;
+    }
+
+    .im{
+        margin-right: 10px;
+    }
+}
